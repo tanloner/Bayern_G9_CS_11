@@ -12,12 +12,12 @@
   <p>
     A guide for the Bavarian G9 Computer Science course. with everything you need to know
     <br />
-    <a href="https://github.com/tanloner/Bayern_G9_CS/docs"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tanloner/Bayern_G9_CS_11/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/tanloner/Bayern_G9_CS/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/tanloner/Bayern_G9_CS_11/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/tanloner/Bayern_G9_CS/issues/new?labels=enhancement&template=feature-request---.md">Request Improvements</a>
+    <a href="https://github.com/tanloner/Bayern_G9_CS_11/issues/new?labels=enhancement&template=feature-request---.md">Request Improvements</a>
   </p>
 </div>
 
@@ -57,7 +57,7 @@ The next steps depend on you IDE. However, i will explain the usual steps.
 either download the zip file or use git to clone the repo<br>
 if you want to use git, you can use the GUI or the command line. <br>
    ```sh
-   git clone https://github.com/tanloner/Bayern_G9_CS.git
+   git clone https://github.com/tanloner/Bayern_G9_CS_11.git
    ```
 2. Open the project in your IDE
 3. Learn whatever you can find
@@ -117,16 +117,16 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Quirin Stetten - stettenquirin@gmail.com
 
-Project Link: [https://github.com/tanloner/Bayern_G9_CS](https://github.com/tanloner/Bayern_G9_CS)
+Project Link: [https://github.com/tanloner/Bayern_G9_CS_11](https://github.com/tanloner/Bayern_G9_CS_11)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/tanloner/Bayern_G9_CS.svg?style=for-the-badge
-[contributors-url]: https://github.com/tanloner/Bayern_G9_CS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tanloner/Bayern_G9_CS.svg?style=for-the-badge
-[forks-url]: https://github.com/tanloner/Bayern_G9_CS/network/members
-[stars-shield]: https://img.shields.io/github/stars/tanloner/Bayern_G9_CS.svg?style=for-the-badge
-[stars-url]: https://github.com/tanloner/Bayern_G9_CS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/tanloner/Bayern_G9_CS.svg?style=for-the-badge
-[issues-url]: https://github.com/tanloner/Bayern_G9_CS/issues
+[contributors-shield]: https://img.shields.io/github/contributors/tanloner/Bayern_G9_CS_11.svg?style=for-the-badge
+[contributors-url]: https://github.com/tanloner/Bayern_G9_CS_11/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tanloner/Bayern_G9_CS_11.svg?style=for-the-badge
+[forks-url]: https://github.com/tanloner/Bayern_G9_CS_11/network/members
+[stars-shield]: https://img.shields.io/github/stars/tanloner/Bayern_G9_CS_11.svg?style=for-the-badge
+[stars-url]: https://github.com/tanloner/Bayern_G9_CS_11/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tanloner/Bayern_G9_CS_11.svg?style=for-the-badge
+[issues-url]: https://github.com/tanloner/Bayern_G9_CS_11/issues
