@@ -70,7 +70,7 @@ if you want to use git, you can use the GUI or the command line. <br>
 The project is divided into different topics. Each topic has a folder with a README.md file that explains the topic and the examples in it.<br>
 Every topic is divided into a python and a java folder. They contain the same examples and documentations, but in different programming languages<br>
 <br>
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](docs/.keep)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,9 +78,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 This roadmap will show you when to learn what. Of course this can vary depending on the teacher <br>
-- [ ] Visit the introduction folder and see what you remember
+- [ ] Visit the [introduction](src/introduction/README.md) folder and see what you remember
 - [ ] Try writing a simple program in Java
-- [ ] take a look at the recursion module
+- [ ] take a look at the [recursion](src/recursion) module
 - [ ] Try implementing a recursive function in your previous programm
 - [ ] ...
 - [ ] ... still in development
