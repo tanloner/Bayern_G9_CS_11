@@ -44,7 +44,7 @@
 
 ### Prerequisites
 First of all you need to install an IDE of your choice. 
-For java i usually use the IntelliJ IDEA. You can download it [here](https://www.jetbrains.com/idea/download/)<br>
+For java, I usually use the IntelliJ IDEA. You can download it [here](https://www.jetbrains.com/idea/download/)<br>
 There are many other IDEs you can use, like Eclipse or NetBeans.
 And there are plenty tutorials on how to install them, so i won't go into detail here.
 
@@ -52,7 +52,7 @@ however, you need to install the Java Development Kit (JDK) to be able to run Ja
 and if you want to try the python examples too, you also need to install python. You can download it [here](https://www.python.org/downloads/)
 
 ### Installation
-The next steps depend on you IDE. However, i will explain the usual steps.
+The next steps depend on your IDE. However, I will explain the usual steps.
 1. Clone the repo <br>
 either download the zip file or use git to clone the repo<br>
 if you want to use git, you can use the GUI or the command line. <br>
