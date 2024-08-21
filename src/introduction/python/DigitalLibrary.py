@@ -59,15 +59,15 @@ class DigitalLibrary:
         else:
             print("There's a tie for the most common item type.")
 
-    def search_by_title(self):
+    def search_by_title(self, title: str):
         # exercise
         pass
 
-    def search_by_year(self):
+    def search_by_year(self, year: int):
         # exercise
         pass
 
-    def search_by_status(self):
+    def search_by_status(self, status: bool):
         # exercise
         pass
 
