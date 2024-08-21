@@ -46,7 +46,7 @@
 First of all you need to install an IDE of your choice. 
 For java, I usually use the IntelliJ IDEA. You can download it [here](https://www.jetbrains.com/idea/download/)<br>
 There are many other IDEs you can use, like Eclipse or NetBeans.
-And there are plenty tutorials on how to install them, so i won't go into detail here.
+And there are plenty tutorials on how to install them, so I won't go into detail here.
 
 however, you need to install the Java Development Kit (JDK) to be able to run Java programs. You can download it [here](https://www.oracle.com/java/technologies/downloads/)
 and if you want to try the python examples too, you also need to install python. You can download it [here](https://www.python.org/downloads/)
@@ -60,7 +60,11 @@ if you want to use git, you can use the GUI or the command line. <br>
    git clone https://github.com/tanloner/Bayern_G9_CS_11.git
    ```
 2. Open the project in your IDE
-3. Learn whatever you can find
+3. execute this command<br>
+   ```sh
+   mvn compile
+   ```
+4. Learn whatever you can find
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -81,7 +85,7 @@ This roadmap will show you when to learn what. Of course this can vary depending
 - [ ] Visit the [introduction](src/introduction/README.md) folder and see what you remember
 - [ ] Try writing a simple program in Java
 - [ ] take a look at the [recursion](src/recursion) module
-- [ ] Try implementing a recursive function in your previous programm
+- [ ] Try implementing a recursive function in your previous program
 - [ ] ...
 - [ ] ... still in development
 

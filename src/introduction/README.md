@@ -44,3 +44,21 @@ This roadmap will show you when to learn what. Of course this can vary depending
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <p align="center"><a href="../../README.md">Back to Main Page</a></p>
+
+## Exercises
+you can do the exercises in the [java](java/README.md) and [python](python/README.md) folder.
+when you are done, you can check your solution by looking in the following list for the proper command to run the tests.<br>
+<strong>searchByTitle:</strong>
+```bash
+mvn test -Dtest=DigitalLibraryTest#searchByTitle
+```
+<strong>searchByYear:</strong>
+```bash
+mvn test -Dtest=DigitalLibraryTest#searchByYear
+```
+<strong>searchByStatus:</strong>
+```bash
+mvn test -Dtest=DigitalLibraryTest#searchByStatus
+```
+<strong> IMPORTANT: </strong> You have to run the tests in the Project folder! It will not work if you are not in the 
+project folder.
