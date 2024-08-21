@@ -20,6 +20,10 @@ public class FamilyTree {
         this.children = new ArrayList<>();
     }
 
+    public String getName() {
+        return name;
+    }
+
     /**
      * Add a child to the family member
      *
@@ -180,6 +184,23 @@ public class FamilyTree {
         parent2.addChild(cousin);
 
         return root;
+    }
+
+    // exercise functions:
+
+    public FamilyTree findYoungestMember() {
+        // This function is left as an exercise
+        return null; // Replace this line
+    }
+
+    public List<String> findShortestFamilyLine() {
+        // This function is left as an exercise
+        return null; // Replace this line
+    }
+
+    public FamilyTree findFamilyWithMostChildren() {
+        // This function is left as an exercise
+        return null; // Replace this line
     }
 
     public static void main(String[] args) {

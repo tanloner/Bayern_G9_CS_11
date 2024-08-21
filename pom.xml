@@ -19,6 +19,7 @@
                 <configuration>
                     <includes>
                         <include>**/DigitalLibraryTest.java</include>
+                        <include>**/FamilyTreeTest.java</include>
                     </includes>
                 </configuration>
             </plugin>
