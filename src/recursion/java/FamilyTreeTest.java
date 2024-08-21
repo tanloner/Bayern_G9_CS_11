@@ -10,7 +10,7 @@ public class FamilyTreeTest {
     private FamilyTree child1;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         familyTree = new FamilyTree("John", 80);
         child1 = new FamilyTree("Jane", 50);
         FamilyTree child2 = new FamilyTree("Jack", 45);
@@ -27,7 +27,7 @@ public class FamilyTreeTest {
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
 
     }
 
