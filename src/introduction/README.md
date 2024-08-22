@@ -10,9 +10,8 @@ You can also find some python examples here, to get a first impression of the la
 (It's really easy, I promise. You can read it like plain english)
 
 ## Structure
-The folder is divided into two subfolders: [`java`](java/README.md) and [`python`](python/README.md).
-Each of them contains a README.md file with the basics of the language.
-They also contain some examples and exercises to get you started.<br>
+The folder is divided into two subfolders: [`java`](java) and [`python`](python).
+They contain some examples and exercises to get you started.<br>
 The examples are the same in both languages, so you can compare them and see the differences and similarities.<br>
 This Structure is universal for all topics in this repository.
 ```bash
@@ -24,7 +23,6 @@ This Structure is universal for all topics in this repository.
 │   │   ├── DigitalLibraryTest.java
 │   │   ├── Ebook.java
 │   │   ├── LibraryItem.java
-│   │   └── README.md
 │   ├── python
 │   │   ├── AudioBook.py
 │   │   ├── Book.py
@@ -32,14 +30,18 @@ This Structure is universal for all topics in this repository.
 │   │   ├── DigitalLibraryTest.py
 │   │   ├── Ebook.py
 │   │   ├── LibraryItem.py
-│   │   └── README.md
 ```
 
 ## Roadmap
-This roadmap will show you when to learn what. Of course this can vary depending on the teacher <hr>
-- [ ] Work through the [java Readme](java/README.md) and see what you remember
-- [ ] Take a look at the [python](python/README.md) folder and see where you can find similarities and differences.
-- [ ] Try to write some code in both languages. You can use the examples in this folder as a starting point.
+This roadmap will guide you through this introduction and show you where to find and learn what<hr>
+- [ ] You should start with the java folder. A nice starting point is the [LibraryItem](java/LibraryItem.java) class.
+- [ ] After that you can work through the [Book](java/Book.java) class and see what you remember about inheritance.
+- [ ] For some more examples take a glance at the [Ebook](java/Ebook.java) and [AudioBook](java/AudioBook.java) classes.
+- [ ] As soon as you feel comfortable with the classes, you can take a look at the [DigitalLibrary](java/DigitalLibrary.java) class.
+- [ ] You will find some exercises in the DigitalLibrary class. Try to solve them, and check your solution with the [tests](#java-tests)
+- [ ] If you have really no idea how to solve the exercises, you can take a look at the [docs](../../docs/.keep).
+- [ ] After you are done with the java folder, you can take a look at the python folder and see where you can find similarities and differences.
+- [ ] Try to write some code in both languages. Maybe your own small project. Anything you can think of.
 - [ ] Take a look at the [recursion](../recursion/README.md) module
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -61,8 +63,8 @@ mvn test -Dtest=DigitalLibraryTest#searchByYear
 ```bash
 mvn test -Dtest=DigitalLibraryTest#searchByStatus
 ```
-<strong> IMPORTANT: </strong> You have to run the tests in the Project folder! It will not work if you are not in the 
-project folder.
+<strong> IMPORTANT: </strong> You have to run the tests in the Project root folder! It will not work if you are not in the 
+root folder. (The folder with the pom.xml, LICENSE.txt, README.md, ...)<br>
 
 ### Python Tests:
 <strong>searchByTitle:</strong>
@@ -77,5 +79,5 @@ python -m unittest src.introduction.python.DigitalLibraryTest.DigitalLibraryTest
 ```bash
 python -m unittest src.introduction.python.DigitalLibraryTest.DigitalLibraryTest.test_search_by_status
 ```
-<strong> AND AGAIN: </strong> You have to run the tests in the Project folder! It will not work if you are not in the 
-project folder.
+<strong> AND AGAIN: </strong> You have to run the tests in the Project root folder! It will not work if you are not in the 
+root folder.

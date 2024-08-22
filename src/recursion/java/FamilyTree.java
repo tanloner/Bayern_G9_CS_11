@@ -62,6 +62,8 @@ public class FamilyTree {
      * This method again uses recursion, and does basically the same thing as the previous method.
      * just checking the age of the family member and comparing it with the other family members this time.
      * @return The oldest family member in the family tree.
+     * return is a statement that returns the value of the function (in this case the oldest family member)<br>
+     * the function can then be used like a value.
      */
     public FamilyTree findOldestMember() {
         FamilyTree oldest = this;
