@@ -8,7 +8,7 @@ class DigitalLibraryTest(TestCase):
         self.library = DigitalLibrary()
         self.library.add_item(Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, pages=180))
         self.library.add_item(Ebook("The Odyssey", "Homer", 1614, format="PDF"))
-        self.library.add_item(AudioBook("Sophie's Welt", "Jostein Gaarder", 1991, duration=720))
+        self.library.add_item(AudioBook("Sofies Welt", "Jostein Gaarder", 1991, duration=720))
 
     @patch("sys.stdout", new_callable=StringIO)
     def test_search_by_title(self, mock_stdout):

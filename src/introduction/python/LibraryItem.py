@@ -1,5 +1,5 @@
 # In Python, we don't need to import any specific module to use strings or booleans, 
-# but for complex data structures like lists, we can import them from the collections module.
+# but for complex data structures like lists, we can import them from the collections' module.
 
 # Base class representing a general library item
 # This class has attributes for title, author, year, and checked out status

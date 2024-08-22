@@ -77,7 +77,7 @@ if __name__ == "__main__":
     library.add_item(AudioBook("To Kill a Mockingbird", "Harper Lee", 1960, 720))
     library.add_item(Book("Pride and Prejudice", "Jane Austen", 1813, 432))
     library.add_item(Book("Dune", "Frank Herbert", 1965, 694))
-    library.add_item(Ebook("Sophies Welt", "Jostein Gaarder", 1991, "EPUB"))
+    library.add_item(Ebook("Sofies Welt", "Jostein Gaarder", 1991, "EPUB"))
 
     # Displaying all items
     print("All items in the library:")

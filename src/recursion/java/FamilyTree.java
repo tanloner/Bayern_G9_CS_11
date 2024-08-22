@@ -112,7 +112,7 @@ public class FamilyTree {
     }
 
     // Iterative vs Recursive: Calculate total age of family
-    // Recusive method:
+    // Recursive method:
     public int calculateTotalAgeRecursive() {
         int totalAge = this.age;
         for (FamilyTree child : children) {
