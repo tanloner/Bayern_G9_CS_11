@@ -20,6 +20,10 @@ public class FamilyTree {
         this.children = new ArrayList<>();
     }
 
+    public String getName() {
+        return name;
+    }
+
     /**
      * Add a child to the family member
      *
@@ -58,6 +62,8 @@ public class FamilyTree {
      * This method again uses recursion, and does basically the same thing as the previous method.
      * just checking the age of the family member and comparing it with the other family members this time.
      * @return The oldest family member in the family tree.
+     * return is a statement that returns the value of the function (in this case the oldest family member)<br>
+     * the function can then be used like a value.
      */
     public FamilyTree findOldestMember() {
         FamilyTree oldest = this;
@@ -106,7 +112,7 @@ public class FamilyTree {
     }
 
     // Iterative vs Recursive: Calculate total age of family
-    // Recusive method:
+    // Recursive method:
     public int calculateTotalAgeRecursive() {
         int totalAge = this.age;
         for (FamilyTree child : children) {
@@ -180,6 +186,23 @@ public class FamilyTree {
         parent2.addChild(cousin);
 
         return root;
+    }
+
+    // exercise functions:
+
+    public FamilyTree findYoungestMember() {
+        // This function is left as an exercise
+        return null; // Replace this line
+    }
+
+    public List<String> findShortestFamilyLine() {
+        // This function is left as an exercise
+        return null; // Replace this line
+    }
+
+    public FamilyTree findFamilyWithMostChildren() {
+        // This function is left as an exercise
+        return null; // Replace this line
     }
 
     public static void main(String[] args) {

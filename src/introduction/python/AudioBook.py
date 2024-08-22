@@ -1,5 +1,5 @@
 # Import the LibraryItem class from the separate file
-from LibraryItem import LibraryItem
+from src.introduction.python.LibraryItem import LibraryItem
 
 class AudioBook(LibraryItem):
     """

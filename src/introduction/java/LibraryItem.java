@@ -1,11 +1,6 @@
 package introduction.java;
 
-//Importing so-called libraries
-//In this case we are importing the ArrayList and List classes from the java.util package
-//This allows us to use these classes in our code
-//The name library has nothing to do with the library we are creating in this example
-
-// Base class representing a general library item
+// This LibraryItem is a base class representing a general library item
 // This class has fields for title, author, year, and checked out status
 // It also has methods to check out, return, and display information about the item
 // It can later be extended by specific item types like Book, Ebook, and AudioBook
@@ -96,5 +91,3 @@ public class LibraryItem {
         System.out.println("Status: " + (isCheckedOut ? "Checked Out" : "Available"));
     }
 }
-
-

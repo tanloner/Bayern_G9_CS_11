@@ -1,8 +1,4 @@
-from LibraryItem import LibraryItem
-from AudioBook import AudioBook
-from Book import Book
-from Ebook import Ebook
-
+from src.introduction.python import LibraryItem, AudioBook, Book, Ebook
 
 class DigitalLibrary:
     def __init__(self) -> None:
@@ -59,15 +55,15 @@ class DigitalLibrary:
         else:
             print("There's a tie for the most common item type.")
 
-    def search_by_title(self):
-        # excersise
-        pass
-
-    def search_by_year(self):
+    def search_by_title(self, title: str):
         # exercise
         pass
 
-    def search_by_status(self):
+    def search_by_year(self, year: int):
+        # exercise
+        pass
+
+    def search_by_status(self, status: bool):
         # exercise
         pass
 
@@ -81,7 +77,7 @@ if __name__ == "__main__":
     library.add_item(AudioBook("To Kill a Mockingbird", "Harper Lee", 1960, 720))
     library.add_item(Book("Pride and Prejudice", "Jane Austen", 1813, 432))
     library.add_item(Book("Dune", "Frank Herbert", 1965, 694))
-    library.add_item(Ebook("Sophies Welt", "Jostein Gaarder", 1991, "EPUB"))
+    library.add_item(Ebook("Sofies Welt", "Jostein Gaarder", 1991, "EPUB"))
 
     # Displaying all items
     print("All items in the library:")

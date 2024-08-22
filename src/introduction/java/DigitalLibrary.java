@@ -110,7 +110,7 @@ public class DigitalLibrary {
         library.addItem(new AudioBook("To Kill a Mockingbird", "Harper Lee", 1960, 720));
         library.addItem(new Book("Pride and Prejudice", "Jane Austen", 1813, 432));
         library.addItem(new Book("Dune", "Frank Herbert", 1965, 694));
-        library.addItem(new Ebook("Sophies Welt", "Jostein Gaarder", 1991, "EPUB"));
+        library.addItem(new Ebook("Sofies Welt", "Jostein Gaarder", 1991, "EPUB"));
 
         // Displaying all items
         System.out.println("All items in the library:");
