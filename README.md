@@ -33,98 +33,79 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
-## Getting Started
-
+Getting Started
+------------
 ### Prerequisites
-First of all you need to install an IDE of your choice. 
-For java, I usually use the IntelliJ IDEA. You can download it [here](https://www.jetbrains.com/idea/download/)<br>
-There are many other IDEs you can use, like Eclipse or NetBeans.
-And there are plenty tutorials on how to install them, so I won't go into detail here.
+To start developing in Java or Python, you'll need to install the necessary tools. Follow the steps below to set up your environment:
 
-however, you need to install the Java Development Kit (JDK 21) to be able to run Java programs. You can download it [here](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)
-and if you want to try the python examples too, you also need to install python. You can download it [here](https://www.python.org/downloads/)
+#### 1. Install an IDE
+Begin by installing an IDE (Integrated Development Environment) that suits your needs. Here are some options:
+
+- **IntelliJ IDEA** (recommended) [download](https://www.jetbrains.com/idea/download/ "download")
+- **Eclipse** [download](https://www.eclipse.org/downloads/ "download")
+- **NetBeans** [download](https://netbeans.apache.org/front/main/download/ "download")
+There are numerous tutorials available on how to install these IDEs, so this guide will not cover those details.
+
+#### 2. Install the Java Development Kit (JDK)
+To run and compile Java programs, you must have the Java Development Kit (JDK) installed. You can download the latest version from the official Oracle website [here](https://www.oracle.com/java/technologies/downloads/ "here").
+
+When downloading the SDK, ensure you select the appropriate version for your operating system:
+- Windows: Look for the "x64 Installer".
+- macOS:
+ - If your device has an Apple M-Series chip, choose the "ARM64 DMG Installer".
+ - If your device has an Intel processor, select the "x64 DMG Installer".
+- Linux: Choose the "x64 RPM Package".
+
+#### 3. Install Python
+If you're also working with Python, ensure that it's installed on your system. You can download Python from the official Python website:
+- [Download Python](https://www.python.org "Download Python")
+
+**Make sure to check the box "Add Python to PATH" before clicking "Install Now."**
 
 ### Installation
-The next steps depend on your IDE. However, I will explain the usual steps.
-1. Clone the repo <br>
-either download the zip file or use git to clone the repo<br>
-if you want to use git, you can use the GUI of your IDE or the command line. <br>
-   ```sh
-   git clone https://github.com/tanloner/Bayern_G9_CS_11.git
-   ```
-2. Open the project in your IDE
-3. execute this command<br>
-   ```sh
-   mvn compile
-   ```
-4. Learn whatever you can find
+The installation process may vary depending on your IDE, but the general steps are outlined below:
+1. **Clone the Repository**
+You can either download the project as a ZIP file or clone the repository using Git.
+ - **Option 1: Download ZIP**
+Download the ZIP file directly from the repository and extract it to your desired location.
+ - **Option 2: Clone with Git**
+To clone the repository, you can use either a Git GUI or the command line:
+```bash
+git clone https://github.com/tanloner/Bayern_G9_CS_11.git
+```
+2. **Open the Project in Your IDE**
+Once you have the project files, open them in your preferred IDE.
+3. **Compile the Project**
+Execute the following command to compile the project:
+```bash
+mvn compile
+```
+4. **Explore and Learn**
+Explore the project files and learn from the content available.
 
+Usage
+------------
+The project is organized into various topics, each housed in its own folder. Inside each folder, you'll find a `README.md` file that provides an explanation of the topic and the examples included.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Each topic is further divided into two subfolders:
 
+- **Python Folder**: Contains examples and documentation in Python.
+- **Java Folder**: Contains the same examples and documentation, but in Java.
 
-## Usage
-The project is divided into different topics. Each topic has a folder with a README.md file that explains the topic and the examples in it.<br>
-Every topic is divided into a python and a java folder. They contain the same examples and documentations, but in different programming languages<br>
-<br>
-_For more detailed explanation of the individual functions, please refer to the [Documentation](docs/.keep)_
+For additional examples and detailed information, please refer to the [**Documentation**.](https://github.com/tanloner/Bayern_G9_CS_11/tree/master/docs "**Documentation**.")
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Contributing 
+------------
+**CONTRIBUTING.md & guide coming soon**
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are highly valued and **appreciated**.
 
-
-
-## Roadmap
-This roadmap will show you when to learn what. Of course this can vary depending on the teacher <br>
-- [ ] Visit the [introduction](src/introduction/README.md) folder and see what you remember
-- [ ] Try writing a simple program in Java
-- [ ] take a look at the [recursion](src/recursion) module
-- [ ] Try implementing a recursive function in your previous program
-- [ ] ...
-- [ ] ... still in development
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+If you have ideas for improvements, feel free to fork the repository and submit a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thank you for your support!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-Quirin Stetten - stettenquirin@gmail.com
-
-Project Link: [https://github.com/tanloner/Bayern_G9_CS_11](https://github.com/tanloner/Bayern_G9_CS_11)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/tanloner/Bayern_G9_CS_11.svg?style=for-the-badge
 [contributors-url]: https://github.com/tanloner/Bayern_G9_CS_11/graphs/contributors
