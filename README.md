@@ -7,7 +7,7 @@
 
 <br />
 <div>
-<h3 align="center">Bavaria G9 CS Guide</h3>
+<h2 align="center">Bavaria G9 CS Guide</h2>
 
   <p>
     A guide for the Bavarian G9 Computer Science course. with everything you need to know
@@ -48,14 +48,14 @@ For java, I usually use the IntelliJ IDEA. You can download it [here](https://ww
 There are many other IDEs you can use, like Eclipse or NetBeans.
 And there are plenty tutorials on how to install them, so I won't go into detail here.
 
-however, you need to install the Java Development Kit (JDK) to be able to run Java programs. You can download it [here](https://www.oracle.com/java/technologies/downloads/)
+however, you need to install the Java Development Kit (JDK 21) to be able to run Java programs. You can download it [here](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)
 and if you want to try the python examples too, you also need to install python. You can download it [here](https://www.python.org/downloads/)
 
 ### Installation
 The next steps depend on your IDE. However, I will explain the usual steps.
 1. Clone the repo <br>
 either download the zip file or use git to clone the repo<br>
-if you want to use git, you can use the GUI or the command line. <br>
+if you want to use git, you can use the GUI of your IDE or the command line. <br>
    ```sh
    git clone https://github.com/tanloner/Bayern_G9_CS_11.git
    ```
@@ -74,7 +74,7 @@ if you want to use git, you can use the GUI or the command line. <br>
 The project is divided into different topics. Each topic has a folder with a README.md file that explains the topic and the examples in it.<br>
 Every topic is divided into a python and a java folder. They contain the same examples and documentations, but in different programming languages<br>
 <br>
-_For more examples, please refer to the [Documentation](docs/.keep)_
+_For more detailed explanation of the individual functions, please refer to the [Documentation](docs/.keep)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

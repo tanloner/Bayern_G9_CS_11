@@ -1,8 +1,4 @@
-from LibraryItem import LibraryItem
-from AudioBook import AudioBook
-from Book import Book
-from Ebook import Ebook
-
+from src.introduction.python import LibraryItem, AudioBook, Book, Ebook
 
 class DigitalLibrary:
     def __init__(self) -> None:

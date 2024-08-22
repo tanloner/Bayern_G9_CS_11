@@ -48,6 +48,7 @@ This roadmap will show you when to learn what. Of course this can vary depending
 ## Exercises
 you can do the exercises in the [java](java/README.md) and [python](python/README.md) folder.
 when you are done, you can check your solution by looking in the following list for the proper command to run the tests.<br>
+### Java Tests:
 <strong>searchByTitle:</strong>
 ```bash
 mvn test -Dtest=DigitalLibraryTest#searchByTitle
@@ -61,4 +62,20 @@ mvn test -Dtest=DigitalLibraryTest#searchByYear
 mvn test -Dtest=DigitalLibraryTest#searchByStatus
 ```
 <strong> IMPORTANT: </strong> You have to run the tests in the Project folder! It will not work if you are not in the 
+project folder.
+
+### Python Tests:
+<strong>searchByTitle:</strong>
+```bash
+python -m unittest src.introduction.python.DigitalLibraryTest.DigitalLibraryTest.test_search_by_title
+```
+<strong>searchByYear:</strong>
+```bash
+python -m unittest src.introduction.python.DigitalLibraryTest.DigitalLibraryTest.test_search_by_year
+```
+<strong>searchByStatus:</strong>
+```bash
+python -m unittest src.introduction.python.DigitalLibraryTest.DigitalLibraryTest.test_search_by_status
+```
+<strong> AND AGAIN: </strong> You have to run the tests in the Project folder! It will not work if you are not in the 
 project folder.
